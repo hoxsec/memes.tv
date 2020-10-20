@@ -1,0 +1,25 @@
+{
+  "name": "memes.tv",
+  "version": "0.0.1",
+  "description": "Mobile First memes platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoxsec/memes.tv.git"
+  },
+  "keywords": [
+    "meme",
+    "memes",
+    "memestv",
+    "memes.tv"
+  ],
+  "author": "Umit Canbolat",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/hoxsec/memes.tv/issues"
+  },
+  "homepage": "https://github.com/hoxsec/memes.tv#readme"
+}
