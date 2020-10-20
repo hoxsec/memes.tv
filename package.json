@@ -4,6 +4,7 @@
   "description": "Mobile First memes platform",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/hoxsec/memes.tv/issues"
   },
-  "homepage": "https://github.com/hoxsec/memes.tv#readme"
+  "homepage": "https://github.com/hoxsec/memes.tv#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "nodemon": "2.0.4"
+  }
 }
