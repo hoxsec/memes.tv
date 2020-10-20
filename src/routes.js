@@ -1,14 +1,13 @@
-module.exports = function(app){
-
+module.exports = function(app, path){
 
     // First page
     app.get('/', function(req, res){
-        res.json({ page: "/" });
+        res.sendFile(path.join(__dirname + '/../public/index.html'));
     });
 
     // Login Page
     app.get('/login', function(req, res) {
-        res.json({ page: "/login" });
+        res.sendFile(path.join(__dirname + '/../public/login.html'));
     });
 
 }
