@@ -2,8 +2,11 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT; 
+const path = require('path');
 
-require('./src/routes')(app);
+app.use(express.static("public"));
+
+require('./src/routes')(app, path);
 
 app.listen(port, () => {
   console.log(`App running on : http://localhost:${port}`)
